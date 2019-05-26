@@ -2,7 +2,7 @@
 title: About Me
 feature_text: |
   
-feature_image: "https://picsum.photos/2560/600?image=873"
+feature_image: "https://www.google.com/imgres?imgurl=https%3A%2F%2Femerj.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fhow-to-cut-through-the-artificial-intelligence-hype-three-simple-rules-of-thumb.png&imgrefurl=https%3A%2F%2Femerj.com%2Fai-executive-guides%2Fhow-to-cut-through-the-artificial-intelligence-hype%2F&docid=hEis3aIDKNmjTM&tbnid=2Wf8HYycsNUYMM%3A&vet=10ahUKEwjMiJKf-LniAhXFfisKHeYBCEIQMwiKASgPMA8..i&w=1900&h=762&client=ubuntu&bih=980&biw=1855&q=artificial%20intelligence&ved=0ahUKEwjMiJKf-LniAhXFfisKHeYBCEIQMwiKASgPMA8&iact=mrc&uact=8"
 excerpt: "A demo of Markdown and HTML includes"
 aside: false
 ---
