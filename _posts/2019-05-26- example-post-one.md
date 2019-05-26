@@ -10,7 +10,7 @@ Now the most challenging part of the task comes that is data annotation. Surely 
 For this, I am designing an ipython based data annotator tool which will have GUI interface and help the others in visualizing and annotating data. Along with these, I had to set up my HPC CWRU account which now has been successfully setup.
 
 So to sum up ,
-<p><B> Things done during community Bonding Period:</B></p>
+<p> Things done during community Bonding Period:</p>
 
 <ul>
   <li>Collected the data from different websites</li>
