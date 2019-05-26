@@ -83,7 +83,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "GSOC " # Site name or title, also used in jekyll-seo-tag
+title: "ayush " # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Blog for GSOC 2019 Redhenlab" # Site description and default description, also used in jekyll-seo-tag
 url: "https://" # Site url, also used in jekyll-seo-tag
@@ -116,7 +116,7 @@ navigation_header:
 #  Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
-  Created by ayushraj : https://github.com/llucifer97
+  Created by jeklly : https://github.com/llucifer97/llucifer97.github.io
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
 #  Twitter: https://twitter.com/DavidDarnes
