@@ -1,5 +1,5 @@
 ---
-title: Week 1: Playing with data and implementing widgets
+title: Week 1 Playing with data and implementing widgets
 categories:
 - GSOC
 -annotationTool
