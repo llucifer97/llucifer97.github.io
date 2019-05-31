@@ -1,24 +1,23 @@
 ---
-title: Week 1 implementing widgets
+title: Pre-GSOC period
 categories:
 - GSOC
--annotationTool
+- Bodypose
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
-Well, My first week of Google Summer Of Code has come to an end. So, In my previous post, I had talked about the Annotation Tool and the widgets. Well, that was just an introduction nothing fancy!
-This week my focus was much on learning and then implementing the interactive widgets to make it easier for the annotator to retrieve every gesture at once given the file name and the number of valid points you want to have in a pose. It has nothing to do with the database(certainly it will be implemented), it was just the magic of the data structure that I have created.
-Talking a bit about the key points, for detecting the Keypoints COCO-18 key points model was used. 
-The most challenging part of the gesture detection/pose detection in paintings(that too of Medieval period ) is the poor quality of the image. As I had mentioned in my previous blog I have not yet achieved the appropriate level of filtered data. One of the key problems that arose, with the gesture having 3 to 4 key points out of total 18 key points, as not been detected. It was not a nice idea to just discard those gestures since they still have important information regarding poses which needs to be addressed. So, Firstly I tried my own hack to remove those zeroes[0,0] by replacing the zeroes with the previous coordinate, which looked okay at first but it was not that effective. So, I was stuck, that goes the professionals come to rescue. My mentors suggested me to actually use the standard deviation method to replace zeroes rather by replacing with fake values. Though this week was kinda warmup time, playing around with things and experimenting with my ideas.
+Since the community bonding period came to an end and soon coding period will begin. So I thought of giving an overview of the task performed in past 20-25 days. Well, most of my time went into the environment setup and data collection. For data collection, I had to build web crawlers to scrape the data. Though most of the data is already scraped there are still few resources which are left to be scrapped. Image data collected was then fed to the [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) library to get the detected key points. I have used the COCO model due to its smaller size and also due to limited computing capabilities. Openpose outputs the list of detected keypoints in the form of JSON/XML file. I have extracted nearly 7000 JSON files(surely there is more to be extracted) which is the starting point of the data science cycle.
+Now the most challenging part of the task comes that is data annotation. Surely not having a background in Humanities seems like a pain but my mentors helped me out, given that they themselves were master of this field. The first question which was to be solved was "How many gestures are present?".Obiviously given that 7000(and more) image it was quite expensive to manually hand annotate the images. For finding this, I tried different visualization, Dimension reduction, and clustering methods. Here, the k-means algorithm came to be handy because of its unsupervised approach. Initially, it gave me weird results but after rigorous hyperparameter tuning, it started giving me meaningful clusters(though not enough to train a good model).
+For this, I am designing an ipython based data annotator tool which will have GUI interface and help the others in visualizing and annotating data. Along with these, I had to set up my HPC CWRU account which now has been successfully setup.
 
+So to sum up ,
+<p> Things done during community Bonding Period:</p>
 
-Also this weekend we had our meeting, where the major discussion was about the features to be implemented in the annotator tool.
-<p>Things to be implemented in Upcoming week:</p>
 <ul>
-    <li>To design a interactive widget to be able to correct the detected gestures in the image</li>
-    <li>To deploy my jupter-notebook using Dash plotly and make it available for everyone to use</li>
-    <li>Add the feature to upload the images of there own and run the jupyter notebook to detect and annotate gesture</li>
+  <li>Collected the data from different websites</li>
+  <li>Extracted the keypoints from the images as json output </li>
+   <li>Further preprocess the data(JSON files) and tried to get any relevant observation</li>
+  <li>Applied clustering algorithms on keypoints to identify the different gestures possibly present in the image</li>
+  <li>Setup the environment on local machine and successfully created HPC CWRU account</li>
+  <li>Discussed the project plan with the mentors over skype call</li>
 </ul>
 
-
-So , this is it. Will keep you posted about my progress. STAY TUNED!
- 
