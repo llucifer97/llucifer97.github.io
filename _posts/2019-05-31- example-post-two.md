@@ -3,7 +3,7 @@ title: Week 1 Playing with data and implementing widgets
 categories:
 - GSOC
 -annotationTool
--Bodypose
+
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 Well, My first week of Google Summer Of Code has come to an end. So, In my previous post, I had talked about the Annotation Tool and the widgets. Well, that was just an introduction nothing fancy!
