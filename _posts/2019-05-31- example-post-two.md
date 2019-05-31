@@ -21,5 +21,5 @@ Also this weekend we had our meeting, where the major discussion was about the f
 </ul>
 
 
-So , this is it . Will keep you posted about my progress. STAY TUNED!
+So , this is it. Will keep you posted about my progress. STAY TUNED!
  
