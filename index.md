@@ -1,7 +1,7 @@
 ---
 title: Gesture Recognition in Art
 feature_text:  |
-  ## ayush
+  ## I am Ayush Raj
   The blog is repository of my progess in the GSOC'2019 project, Gesture Recognition in Art
 
 feature_image: "https://picsum.photos/1300/400?image=989"
